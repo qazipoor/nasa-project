@@ -1,0 +1,336 @@
+repo_name: qazipoor/nodejs-nasa-project
+report_id: 86467bb0c241084eb3af86b10ca6170a
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-14T16:58:03+00:00'
+requested_by: qazipoor
+provider: github
+branch: main
+detected_tools_count: 24
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project
+  detection_source: Repo Metadata
+- name: Arwes
+  description: Futuristic Sci-Fi UI web framework
+  website_url: https://arwes.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/101795/default_21c15271f259470549ef4fd99b9df0875f66d3c1.jpg
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package.json
+  detection_source: client/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 6.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/.github/workflows/node.yml
+  detection_source: ".github/workflows/node.yml"
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 27.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: PM2
+  description: Ease-to-use Node.js process manager, like forever
+  website_url: https://github.com/Unitech/pm2
+  version: 5.2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Node.js Process Manager
+  image_url: https://img.stackshare.io/service/2237/757747.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 6.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+  vulnerabilities:
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: csv-parse
+  description: CSV parsing implementing the Node.js `stream.Transform` API
+  package_url: https://www.npmjs.com/csv-parse
+  version: 5.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/server/package-lock.json
+  detection_source: server/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/qazipoor/nodejs-nasa-project/blob/main/client/package-lock.json
+  detection_source: client/package.json
+  last_updated_by: Ali Qazipoor
+  last_updated_on: 2022-04-01 08:31:52.000000000 Z
